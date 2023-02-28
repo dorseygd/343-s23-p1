@@ -16,20 +16,16 @@
 
   <!-- nav bar -->
   <nav>
-    The quickest any% route
-    3 year plan
-    3.5 year plan
-    4 year plan
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>Year 1</li>
+      <li>Year 2</li>
+      <li>Year 3</li>
+      <li>Year 4</li>
     </ul>
   </nav>
 
   <main>
-    <p>Welcome!</p>
+    <h2>Welcome!</h2>
 
     <!-- first paragraph -->
     <p>This website was made by JMU CS students to give a suggested path to get a CS degree at JMU. CLick on a link on
@@ -40,13 +36,35 @@
     <ul>
       <li><a href="https://wiki.cs.jmu.edu/department/curriculum/start">JMU CS WIKI Curriculum page</a></li>
       <li><a href="https://wiki.cs.jmu.edu/department/curriculum/start">Interactive Flowchart</a></li>
-      <li><a
-          href="https://catalog.jmu.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=50&expand=&navoid=2576&search_database=Filter#acalog_template_course_filter">Official
-          Course Descriptions</a></li>
+      <li><a href="https://catalog.jmu.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=50&expand=&navoid=2576&search_database=Filter#acalog_template_course_filter">
+          Official Course Descriptions</a>
+      </li>
     </ul>
 
     <!-- email paige etc -->
     <p></p>
+
+    <hr></hr>
+    <p>To receive more information about the program, choose a contact preference below and enter your information:</p>
+
+    <form>
+      <input type="radio" id="phone" name="contact_pref" value="Phone">
+      <label for="phone">Phone</label><br>
+      <input type="radio" id="email" name="contact_pref" value="Email">
+      <label for="phone">Email</label><br>
+      <br>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="phone">Phone:</label><br>
+      <input type="text" id="phone" name="phone"><br>
+      <br>
+      <input type="submit" value="Submit">
+      <input type="reset">
+    </form>
 
 
   </main>
