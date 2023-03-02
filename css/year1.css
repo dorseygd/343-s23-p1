@@ -1,5 +1,5 @@
 html {
-  background-image: url(https://wallpapercave.com/wp/wp5378701.jpg);
+  background-image: url(https://wallpapercave.com/wp/wp3425540.jpg);
 }
 
 
@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 40px;
-  padding: 4vw;
+  padding: 5vw;
   
 }
 
@@ -20,10 +20,14 @@ body {
 
 
 #advice {
-  
-  width: 400px;
+  height: 300px;
+  width: 700px;
   margin-left: 10px;
   font-size: x-large;
+}
+
+#title {
+  width: 55px;
 }
 
 #classes {
@@ -32,28 +36,37 @@ body {
   width: 300px;
 }
 
-section#fall {
+#fall {
   background-color: palegreen;
 }
 
-section#spring {
+#spring {
   background-color: rgb(160, 233, 246);
 }
 
 @media screen and (max-width: 1240px) {
-  section div#classes {
+  body {
     max-width: 95vw;
   }
-
-  div#advice {
-    position: initial;
-    width: 100%;
+  
+  /* #classes {
+    max-width: 200px;
   }
+
+  #advice {
+    position: initial;
+    width: 400px;
+  } */
 }
 
 @media screen and (max-width: 800px) {
-  figure {
-    margin: 0;
+  #classes {
     width: 100vw;
+  }
+
+  #advice {
+    /* position: initial; */
+    width: 100vw;
+    
   }
 } 
