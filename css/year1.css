@@ -17,7 +17,16 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   top: 0;
+   
 } 
+
+
+section div {
+  border: solid 2px #ee97d7;
+  border-radius:20px;
+  margin: 4px;
+}
+
 
 
 #advice {
@@ -31,6 +40,22 @@ body {
   width: 55px;
 }
 
+#fall #classes {
+  background-color: rgb(139, 251, 197);
+}
+
+#fall #advice {
+  background-color: rgb(139, 251, 197);
+}
+
+#spring #advice {
+  background-color: rgb(160, 233, 246);
+}
+
+#spring #classes {
+  background-color: rgb(160, 233, 246);
+}
+
 #classes {
   
   font-size: x-large;
@@ -38,29 +63,12 @@ body {
 }
 
 #fall {
-  background-color: palegreen;
+  
 }
 
-#spring {
-  background-color: rgb(160, 233, 246);
-}
+
 
 @media screen and (max-width: 1240px) {
-  body {
-    max-width: 95vw;
-  }
-  
-  /* #classes {
-    max-width: 200px;
-  }
-
-  #advice {
-    position: initial;
-    width: 400px;
-  } */
-}
-
-@media screen and (max-width: 800px) {
   #classes {
     width: 100vw;
   }
@@ -71,4 +79,8 @@ body {
     height: fit-content;
     
   }
+}
+
+@media screen and (max-width: 800px) {
+
 } 
