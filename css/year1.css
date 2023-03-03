@@ -9,6 +9,8 @@ body {
   flex-direction: column;
   margin: 40px;
   padding: 5vw;
+ 
+  
   
 }
 
@@ -25,7 +27,9 @@ section div {
   border: solid 2px #ee97d7;
   border-radius:20px;
   margin: 4px;
+  
 }
+
 
 
 
@@ -34,6 +38,7 @@ section div {
   width: 60vw;
   margin-left: 10px;
   font-size: x-large;
+  padding: 10px;
 }
 
 #title {
@@ -60,15 +65,12 @@ section div {
   
   font-size: x-large;
   width: 18vw;
-}
-
-#fall {
-  
+  padding: 15px
 }
 
 
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1555px) {
   #classes {
     width: 100vw;
   }
@@ -81,6 +83,14 @@ section div {
   }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
+  #classes {
+    width: 100vw;
+  }
 
-} 
+  #advice {
+    position: initial;
+    width: 100vw;
+    height: fit-content;
+  }
+} */
