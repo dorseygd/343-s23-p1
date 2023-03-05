@@ -1,5 +1,6 @@
 html {
-  background-image: url(https://wallpapercave.com/wp/wp3425540.jpg);
+  background-image: url ("../images/cherryBlossom.jpg"); 
+  /* this as the url works: https://wallpapercave.com/wp/wp3425540.jpg */
 }
 
 
