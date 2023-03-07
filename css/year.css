@@ -1,21 +1,32 @@
-html {
+/* html {
   background-image: url ("../images/cherryBlossom.jpg"); 
   /* this as the url works: https://wallpapercave.com/wp/wp3425540.jpg */
-}
+ 
 
 
 body {
-  background-color: white;
+  background-color: #fff1d2;
   display: flex;
   flex-direction: column;
-  margin: 40px;
-  padding: 5vw;
- 
-  
-  
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
- section {
+
+header {
+  margin: 0;
+  padding: 1vw 1vw;
+  background-color: #dce4ef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  padding: 0 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,11 +56,11 @@ section div {
 }
 
 #fall #classes {
-  background-color: rgb(139, 251, 197);
+  background-color: #c8edbf;
 }
 
 #fall #advice {
-  background-color: rgb(139, 251, 197);
+  background-color: #c8edbf;
 }
 
 #spring #advice {
@@ -69,7 +80,7 @@ section div {
 
 
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1260px) {
   #classes {
     width: 100vw;
   }
@@ -108,7 +119,7 @@ nav a:hover {
 
 
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   #classes {
     width: 100vw;
   }
@@ -118,4 +129,4 @@ nav a:hover {
     width: 100vw;
     height: fit-content;
   }
-} */
+}
