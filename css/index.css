@@ -66,6 +66,18 @@ form {
   padding: 1vw 0;
 }
 
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  background-color: aliceblue;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
 main a {
   color: #212121;
 }
