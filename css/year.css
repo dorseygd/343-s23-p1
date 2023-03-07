@@ -43,7 +43,7 @@ section div {
 }
 
 
-#advice {
+.advice {
   height: 300px;
   width: 60vw;
   margin-left: 10px;
@@ -51,27 +51,27 @@ section div {
   padding: 10px;
 }
 
-#title {
+title {
   width: 55px;
 }
 
-#fall #classes {
+#fall .classes {
   background-color: #c8edbf;
 }
 
-#fall #advice {
+#fall .advice {
   background-color: #c8edbf;
 }
 
-#spring #advice {
+#spring .advice {
   background-color: rgb(160, 233, 246);
 }
 
-#spring #classes {
+#spring .classes {
   background-color: rgb(160, 233, 246);
 }
 
-#classes {
+.classes {
   
   font-size: x-large;
   width: 18vw;
@@ -86,10 +86,8 @@ section div {
   }
 
   #advice {
-    /* position: initial; */
     width: 100vw;
     height: fit-content;
-    
   }
 }
 
@@ -124,7 +122,7 @@ nav a:hover {
     width: 100vw;
   }
 
-  #advice {
+  .advice {
     position: initial;
     width: 100vw;
     height: fit-content;
